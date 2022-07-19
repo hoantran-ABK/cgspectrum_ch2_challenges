@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1d8d3ab8-26c3-47bb-8880-b9ffd4f7cfa2}</ProjectGuid>
+    <ProjectGuid>{d24972af-9d0d-426a-a79a-86b1d2f5c4e8}</ProjectGuid>
     <RootNamespace>cgspectrumch2challenge2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
