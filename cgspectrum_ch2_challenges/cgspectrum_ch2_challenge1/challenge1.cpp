@@ -1,17 +1,17 @@
 #include <iostream>
 
 
-int Sum(int x, int y, int z) {
+double Sum(double x, double y, double z) {
 	return x + y + z;
 }
 
-double Average(int x, int y, int z) {
+double Average(double x, double y, double z) {
 	return double(Sum(x, y, z)) / 3.0;
 }
 
 int main() {
 
-	int x, y, z;
+	double x, y, z;
 
 	std::cout << "Provide 3 integer values: \n";
 	std::cin >> x;

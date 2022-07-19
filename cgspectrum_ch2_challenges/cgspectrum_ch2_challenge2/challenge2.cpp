@@ -1,12 +1,12 @@
 #include <iostream>
 
-int cubed(int i) {
+double cubed(double i) {
 	return std::pow(i, 3);
 }
 
 int main() {
 
-	int i;
+	double i;
 	std::cout << "Provide a value to be cubed: ";
 	std::cin >> i;
 
