@@ -13,9 +13,11 @@ int main() {
 
 	double x, y, z;
 
-	std::cout << "Provide 3 integer values: \n";
+	std::cout << "Please provide a number (3 left): ";
 	std::cin >> x;
+	std::cout << "Please provide a number (2 left): ";
 	std::cin >> y;
+	std::cout << "Please provide a number (1 left): ";
 	std::cin >> z;
 
 	std::cout << "Sum of the 3 numbers: " << Sum(x, y, z) << std::endl;
