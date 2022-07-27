@@ -1,26 +1,32 @@
 #include <iostream>
 
-double cubed(double i) {
-	return std::pow(i, 3);
+using namespace std;
+
+double cubed(double i)
+{
+	return pow(i, 3);
 }
 
-int main() {
+int main()
+{
 
 	double i;
 
-	while (true) {
-		std::cout << "Provide a value to be cubed: ";
+	while (true)
+	{
+		cout << "Provide a value to be cubed: ";
 		
-		if (std::cin >> i) {
+		if (cin >> i)
+		{
 			break;
 		}
-		std::cout << "Invalid number, try again...\n";
-		std::cin.clear();
+		cout << "Invalid number, try again...\n";
+		cin.clear();
 
-		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
 	}
-	std::cout << cubed(i) << std::endl;
+	cout << cubed(i) << endl;
 
 	return 0;
 }
